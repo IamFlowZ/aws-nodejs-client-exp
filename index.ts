@@ -7,7 +7,6 @@ import withoutClient from './lib/without-client'
   const withoutClientResult = await withoutClient();
   console.log(`withoutClientResult: ${JSON.stringify(withoutClientResult, null, 2)}`);
 })()
-console.log('hello');
 
 /**
  * withClientResult: {
